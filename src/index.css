@@ -1,0 +1,28 @@
+@font-face {
+    font-family:Outfit-regular ;
+    src: url('./Fonts/OutfitFont/Outfit-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+
+html , body{
+    font-family:Outfit-regular ;
+    overflow-x: hidden;
+    background-color: #161513;;
+    scroll-behavior: smooth; 
+    
+    
+}
+
+input::placeholder{
+    font-family:Outfit-regular ;
+}
+

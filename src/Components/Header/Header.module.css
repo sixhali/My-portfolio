@@ -1,0 +1,162 @@
+.Header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    height: 82px;
+    align-items: center;
+}
+
+.Logotext img{
+    max-width: 250px;
+}
+
+.Navigation a{
+    margin-left: 70px;
+    color: #000;
+    padding-bottom: 10px;
+
+}
+
+.CvDowlandbtn {
+    background-image: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 50px;
+    transition: 0.5s;
+    border: none;
+}
+
+.CvDowlandbtn:hover {
+    transform: scale(1.05); 
+}
+
+
+.Bars{
+    display: none;
+}
+
+.activeLink{
+    border-bottom: 2px solid #ef5241;
+}
+
+
+/* Responsive  */
+
+@media (max-width:1200px){
+    .Header{
+        padding: 20px;
+    }
+
+    .Header img{
+        width: 180px;
+    }  
+}
+
+@media (max-width:992px){
+    .Header{
+        padding: 20px;
+    }
+
+    .Navigation{
+        margin-bottom: 10px;
+
+    }
+
+    .Navigation a{
+        margin-left: 30px;
+        color: #000;
+      
+    
+    }
+
+    .Header img{
+        width: 180px;
+    }  
+}
+
+@media (max-width:768px){
+    .Header{
+        padding: 0px 20px;
+    }
+    
+    .Navigation a{
+     display: none;
+    
+    }
+
+    .Bars{
+        display: block;
+        margin-bottom: -10px;
+        color: #000;
+        font-size: 40px;
+    }
+
+    .Header img{
+        width: 180px;
+    }
+
+    .CvDowlandbtn{
+        display: none;
+    }
+    
+}
+
+@media (max-width:576px){
+    .Header{
+        padding: 0px 20px;
+    }
+    
+    .Navigation a{
+     display: none;
+    
+    }
+
+    .Bars{
+        display: block;
+        margin-bottom: -10px;
+        color: #000;
+        font-size: 40px;
+    }
+
+    .Header img{
+        width: 180px;
+    }
+
+    .CvDowlandbtn{
+        display: none;
+    }
+    
+}
+
+@media (max-width:360px){
+    .Header{
+        padding: 0px 20px;
+    }
+    
+    .Navigation a{
+     display: none;
+    
+    }
+
+    .Bars{
+        display: block;
+        margin-bottom: -10px;
+        color: #000;
+        font-size: 40px;
+    }
+
+    .Header img{
+        width: 180px;
+    }
+
+    .CvDowlandbtn{
+        display: none;
+    }
+    
+}

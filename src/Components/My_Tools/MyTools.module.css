@@ -1,0 +1,220 @@
+.MyToolsContainer{
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    color: #fff;
+    overflow: hidden;
+    
+
+}
+
+.MyToolsBoxs{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+
+.MyToolsBox{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    transition: 500ms;
+    cursor: pointer;
+
+}
+
+.MyToolsBox:nth-child(1){
+    padding: 30px;
+
+}
+.MyToolsBox:nth-child(2){
+    padding: 35px;
+
+}
+.MyToolsBox:nth-child(3){
+    padding: 50px;
+
+}
+.MyToolsBox:nth-child(4){
+    padding: 28px;
+
+}
+.MyToolsBox:nth-child(5){
+    padding: 38px;
+
+}
+.MyToolsBox:nth-child(6){
+    padding: 40px;
+
+}
+
+.MyToolsBox img{
+    max-width: 64px;
+    background: transparent;
+}
+
+.MyToolsBox h1{
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.MyToolsBox h3{
+    background-color: transparent;
+}
+
+.MyToolsBox:hover{
+  transform: scale(1.1);
+  background-color: #531b0a;
+}
+
+/* Responsive */
+
+
+
+@media(max-width:992px){
+
+    .MyToolsBoxs{
+        gap: 50px;
+    }
+    
+    .MyToolsBox:nth-child(1){
+        padding: 30px;
+    
+    }
+    .MyToolsBox:nth-child(2){
+        padding: 35px;
+    
+    }
+    .MyToolsBox:nth-child(3){
+        padding: 50px;
+    
+    }
+    .MyToolsBox:nth-child(4){
+        padding: 28px;
+    
+    }
+    .MyToolsBox:nth-child(5){
+        padding: 38px;
+    
+    }
+    .MyToolsBox:nth-child(6){
+        padding: 40px;
+    
+    }
+    
+    .MyToolsBox img{
+        max-width: 64px;
+        background: transparent;
+    }
+}
+
+@media(max-width:768px){
+
+    .MyToolsBoxs{
+        gap: 50px;
+        max-width: 700px;
+    }
+    
+    .MyToolsBox:nth-child(1){
+        padding: 20px;
+    
+    }
+    .MyToolsBox:nth-child(2){
+        padding: 28px;
+    
+    }
+    .MyToolsBox:nth-child(3){
+        padding: 46px;
+    
+    }
+    .MyToolsBox:nth-child(4){
+        padding: 18px;
+    
+    }
+    .MyToolsBox:nth-child(5){
+        padding: 38px;
+    
+    }
+    .MyToolsBox:nth-child(6){
+        padding: 40px;
+    
+    }
+    
+    .MyToolsBox img{
+        max-width: 64px;
+        background: transparent;
+    }
+}
+
+@media(max-width:576px){
+    .MyToolsBox:nth-child(1){
+        padding: 20px;
+    
+    }
+    .MyToolsBox:nth-child(2){
+        padding: 28px;
+    
+    }
+    .MyToolsBox:nth-child(3){
+        padding: 46px;
+    
+    }
+    .MyToolsBox:nth-child(4){
+        padding: 18px;
+    
+    }
+    .MyToolsBox:nth-child(5){
+        padding: 38px;
+    
+    }
+    .MyToolsBox:nth-child(6){
+        padding: 40px;
+    
+    }
+    
+    .MyToolsBox img{
+        max-width: 64px;
+        background: transparent;
+    }
+}
+
+@media(max-width:360px){
+    .MyToolsBox:nth-child(1){
+        padding: 20px;
+    
+    }
+    .MyToolsBox:nth-child(2){
+        padding: 28px;
+    
+    }
+    .MyToolsBox:nth-child(3){
+        padding: 46px;
+    
+    }
+    .MyToolsBox:nth-child(4){
+        padding: 18px;
+    
+    }
+    .MyToolsBox:nth-child(5){
+        padding: 38px;
+    
+    }
+    .MyToolsBox:nth-child(6){
+        padding: 40px;
+    
+    }
+    
+    .MyToolsBox img{
+        max-width: 64px;
+        background: transparent;
+    }
+}

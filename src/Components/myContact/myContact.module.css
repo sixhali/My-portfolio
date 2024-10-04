@@ -1,0 +1,218 @@
+.Container{
+    margin-top: 50px;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 50px;
+}
+
+.Content{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    color: #d8d8d8;
+}
+.Text{
+    padding-bottom: 20px;
+}
+
+
+
+.Text h1{
+    font-size: 50px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Text>p{
+    max-width: 550px;
+    margin: 40px 0px;
+    font-size: 16px;
+    line-height: 25px;
+
+}
+.mail,.Phone,.Location{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 10px;
+}
+
+.mailIcon,.PhoneIcon,.LocationIcon{
+    font-size: 25px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input input[type=text]{
+    width: 100%;
+    border: none;
+    padding: 18px 0 18px 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #a0a0a0;
+    font-family: Outfit;
+    font-size: 18px;
+    outline: none;
+}
+
+.input textarea {
+    width: 600px; 
+    border: none;
+    padding: 18px 0 18px 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #a0a0a0;
+    font-family: Outfit, sans-serif;
+    font-size: 18px;
+    resize: none;
+    outline: none;
+}
+
+.Submit{
+    display: flex;
+    align-items: center;
+}
+
+
+.Submit button{
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    font-size: 18px;
+    padding: 18px 40px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.Submit button:hover{
+    transform: scale(1.1);
+}
+
+
+/* Resonsive */
+
+@media (max-width: 1200px){
+
+    .input{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .input textarea {
+        width: 400px;
+    }
+    .Text{
+        margin-bottom: 20px;
+    }
+    .Text h1{
+       padding-bottom: 20px;
+    }
+
+    .Text>p{
+        padding: 40px 0px;
+    }
+
+    .Submit{
+        display: flex;
+        margin-top: 25px;
+        justify-content: center;
+    }
+
+
+
+}
+@media (max-width: 992px){
+
+    .Content{
+      gap: 50px;
+    }
+     
+    .input{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .input textarea {
+        width: 400px;
+    }
+
+    .Submit{
+        display: flex;
+        margin-top: 25px;
+        justify-content: center;
+    }
+
+
+
+}
+
+@media (max-width: 768px){
+    .Content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input textarea {
+        width: 600px;
+    }
+
+    .Submit{
+        display: flex;
+        margin-top: 25px;
+        justify-content: center;
+    }
+
+}
+
+
+@media (max-width: 576px){
+    .Content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input textarea {
+        width: 350px;
+    }
+
+    .Submit{
+        display: flex;
+        margin-top: 25px;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 360px){
+    .Content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input textarea {
+        width: 300px;
+    }
+
+    .Submit{
+        display: flex;
+        margin-top: 25px;
+        justify-content: center;
+    }
+
+}
