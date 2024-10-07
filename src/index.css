@@ -26,15 +26,12 @@ html , body{
     
 }
 
-  
-
 input::placeholder{
     font-family:Outfit-regular ;
 }
 
 .dark-mode {
     background-color: #fff;
-    color: #161513;
 }
 
 

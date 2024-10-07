@@ -12,7 +12,6 @@ function App() {
   const [isDarkMode,setDarkMode]=useState(true)
 
   const toggleDarkMode = (checked) => {
-    console.log(checked); 
     setDarkMode(checked);
   };
 

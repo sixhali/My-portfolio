@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import MobileModle from './Mobile.module.css'
 import { IoCloseSharp } from "react-icons/io5";
+import My_cv from '../img/MyCv.pdf'; 
 
 
 function Mobilenav({showMenu,toggleMenu,}) {
@@ -9,8 +10,8 @@ function Mobilenav({showMenu,toggleMenu,}) {
 
   function downloadCv(){
    const link = document.createElement('a')
-   link.href= 'src/assets/MyCv.docx'
-   link.download = 'myCv.docx'
+   link.href= {My_cv}
+   link.download = 'myCv.pdf'
    link.click()
   }
 
