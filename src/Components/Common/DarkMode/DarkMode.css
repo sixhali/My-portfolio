@@ -7,7 +7,7 @@
 }
   
 
-.darkodeicon{
+.darkmodeicon{
     position: fixed;
     z-index: 999;
     top: 20px;
@@ -18,7 +18,7 @@
 /* responsive*/
 
 @media(max-width:1400px) {
-    .darkodeicon{
+ .darkmodeicon{
         position: fixed;
         z-index: 999;
         top: 20px;
@@ -29,7 +29,7 @@
 }
 
 @media(max-width:1200px) {
-    .darkodeicon{
+ .darkmodeicon{
         position: fixed;
         z-index: 999;
         top: 20px;
@@ -40,7 +40,7 @@
 }
 
 @media(max-width:992px) {
-    .darkodeicon{
+ .darkmodeicon{
         position: fixed;
         z-index: 999;
         top: 20px;
@@ -51,7 +51,7 @@
 }
 
 @media(max-width:768px) {
-    .darkodeicon{
+ .darkmodeicon{
         position: fixed;
         z-index: 999;
         top: 20px;
@@ -63,7 +63,7 @@
 
 
 @media(max-width:576px) {
-    .darkodeicon{
+ .darkmodeicon{
         position: fixed;
         z-index: 999;
         top: 20px;
@@ -74,7 +74,7 @@
 }
 
 @media(max-width:360px) {
-    .darkodeicon{
+ .darkmodeicon{
         position: fixed;
         z-index: 999;
         top: 20px;
