@@ -9,11 +9,11 @@ import myProje6 from '../../assets/MyProje_6.png';
 
 
 
-function MyProje() {
+function MyProje({isDarkMode}) {
   return (
     <div id='myproje'>
         <div className={MyProjeModule.MyProjeBoxs}>
-           <h1>My Proje</h1>
+           <h1 style={{ color: isDarkMode ? '#fff' : '#000' }}>My Proje</h1>
             <div className={MyProjeModule.MyProjeBox}>
                 <a href="#"><img src={myProje1} width={390}/></a>
                 <a href="#"><img src={myProje2} width={416}/></a>

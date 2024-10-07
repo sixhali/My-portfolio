@@ -7,7 +7,7 @@ import { Audio } from 'react-loader-spinner';
 import Swal from 'sweetalert2'
 
 
-function Mycontact() {
+function Mycontact({isDarkMode}) {
   const [name,setName] = useState('')
   const [email,setEmail] = useState('')
   const [message,setMessage] = useState('')
@@ -83,10 +83,11 @@ function Mycontact() {
     };
   return (
     <form onSubmit={onSubmit} id='contact' className={myContactmodule.Container}>
-        <h1>Contact</h1>
-        <div className={myContactmodule.Content}>
-            <div className={myContactmodule.Text}>
-                <h1>Let's talk</h1>
+        <h1 style={{ color: isDarkMode ? '#fff' : '#000' }}>Contact</h1>
+        <div style={{ color: isDarkMode ? '#fff' : '#000' }} className={myContactmodule.Content}>
+            <div className={myContactmodule.Text}
+            style={{ color: isDarkMode ? '#fff' : '#000' }}>
+                <h1 >Let's talk</h1>
                 <p>I'm currently avaliable to take on new projects,
                      so feel free to send me a message about anything that you want me to work on. You can contact anytime</p>
                 <div className={myContactmodule.mail}><IoIosMail className={myContactmodule.mailIcon}/><p>sixhaliguliyev@gmail.com</p></div>     
@@ -94,7 +95,8 @@ function Mycontact() {
                 <div className={myContactmodule.Location}><SlLocationPin className={myContactmodule.LocationIcon} /><p>Baku, Republic of Azerbaijan</p></div>     
             </div>
             <div className={myContactmodule.inputBtn}>
-                <div className={myContactmodule.input}>
+                <div className={myContactmodule.input}
+                style={{ color: isDarkMode ? '#fff' : '#000' }}>
                     <label>Your Name</label>
                     <input type="text" placeholder='Enter Your Name' value={name} onChange={(e)=>setName(e.target.value)} />
 

@@ -3,6 +3,10 @@
     src: url('./Fonts/OutfitFont/Outfit-Regular.ttf');
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +26,19 @@ html , body{
     
 }
 
+  
+
 input::placeholder{
     font-family:Outfit-regular ;
 }
+
+.dark-mode {
+    background-color: #fff;
+    color: #161513;
+}
+
+
+
+  
+
 

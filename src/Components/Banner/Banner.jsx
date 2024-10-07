@@ -7,15 +7,16 @@ import linkedinIcon from '../../assets/linkedin.png';
 
 
 
-function Banner() {
+function Banner({isDarkMode}) {
   return (
     <div id='home' className={BannerModulecss.Container}>
         <img src={MyPhotoCricle} alt=""/>
         <div className={BannerModulecss.Text}>
-          <p><span>I'm Sixhali Guliyev,<br/></span>
+          <p
+        style={{ color: isDarkMode ? '#fff' : '#000' }}><span>I'm Sixhali Guliyev,<br/></span>
                frontend developer based in Azerbaijan.
             </p>
-            <p>
+            <p style={{ color: isDarkMode ? '#fff' : '#000' }}>
              I am a frontend developer from Azerbaijan,
               continuously learning and building projects.
                I am passionate about creating responsive,
