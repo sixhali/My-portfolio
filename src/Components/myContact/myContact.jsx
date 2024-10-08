@@ -83,7 +83,7 @@ function Mycontact({isDarkMode}) {
     };
   return (
     <form onSubmit={onSubmit} id='contact' className={myContactmodule.Container}>
-        <h1 style={{ color: isDarkMode ? '#fff' : '#000' }}>Contact</h1>
+        <h1 style={{ color: isDarkMode ? '#fff' : '#000' }} className=' text-3xl font-bold'>Contact</h1>
         <div style={{ color: isDarkMode ? '#fff' : '#000' }} className={myContactmodule.Content}>
             <div className={myContactmodule.Text}
             style={{ color: isDarkMode ? '#fff' : '#000' }}>

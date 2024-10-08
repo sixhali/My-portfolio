@@ -1,11 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 @font-face {
     font-family:Outfit-regular ;
     src: url('./Fonts/OutfitFont/Outfit-Regular.ttf');
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 *{
     margin: 0;

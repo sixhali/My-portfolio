@@ -1,0 +1,129 @@
+
+@media(max-width:1400px){
+    .MyToolsContainer{
+        max-width: 800px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .boxs{
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .box{
+        height: 40vh;
+    }
+
+    .MyToolsContainer>h1{
+        font-size: 25px;
+    }
+}
+@media(max-width:1200px){
+    .MyToolsContainer{
+        max-width: 800px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .boxs{
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .box{
+        height: 40vh;
+    }
+    .box h1{
+        font-size: 22px !important;
+    }
+
+
+    .MyToolsContainer h1{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:992px){
+    .boxs{
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .box{
+       height: 40vh;
+    }
+    .box h1{
+        font-size: 22px !important;
+    }
+
+
+    .MyToolsContainer h1{
+        font-size: 25px;
+    }
+}
+
+
+@media(max-width:768px){
+    .boxs{
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .box{
+       height: 40vh;
+
+    }
+
+    .box h1{
+        font-size: 22px !important;
+    }
+
+
+    .MyToolsContainer h1{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:576px){
+    .boxs{
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .box{
+       height: 50vh;
+    }
+
+    .box h1{
+        font-size: 22px !important;
+    }
+
+
+    .MyToolsContainer h1{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:360px){
+    .boxs{
+        align-items: center;
+        justify-content: center;
+
+    }
+    .box{
+        padding: 40px;
+    }
+    .box h1{
+        font-size: 22px !important;
+    }
+
+    .MyToolsContainer h1{
+        font-size: 25px;
+    }
+}

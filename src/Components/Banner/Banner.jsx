@@ -24,10 +24,10 @@ function Banner({isDarkMode}) {
             </p>
 
         </div>
-        <div className={BannerModulecss.Icons}>
-            <a href="https://www.instagram.com/the_sixhali/" target='_blank'><img src={instagramIcon} alt=""/></a>
-            <a href="https://github.com/sixhali" target='_blank'><img src={githubIcon} alt="" /></a>
-            <a href="https://www.linkedin.com/in/shikhali-guliyev/" target='_blank'><img src={linkedinIcon} alt="" /></a>
+        <div className="flex gap-5">
+            <a  href="https://www.instagram.com/the_sixhali/" target='_blank'><img src={instagramIcon} alt="" style={{ width:'50px', height:'50px'}}/></a>
+            <a href="https://github.com/sixhali" target='_blank'><img src={githubIcon} alt=""  style={{ width:'50px', height:'50px'}}/></a>
+            <a href="https://www.linkedin.com/in/shikhali-guliyev/" target='_blank'><img src={linkedinIcon} alt="" style={{ width:'50px', height:'50px'}} /></a>
         </div>
     </div>
   )

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .Container{
   display: flex;
   padding: 50px 10px;
@@ -44,7 +48,8 @@
     -webkit-text-fill-color: transparent;
 }
 
-.Icons img{
+.IconsImg a{
+  display: flex;
   width: 60px;
   height: 60px;
   margin:30px;
