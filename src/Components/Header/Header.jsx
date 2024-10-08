@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import HeaderModle from './Header.module.css'
+import HeaderModule from './Header.module.css'
 import usePersonalData from '../../Hooks/usePersonalData';
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import myLogo from '../../assets/MyLogoText.png';
@@ -23,22 +23,22 @@ function Header() {
   };
 
   return (
-    <header className={HeaderModle.Header}>
-      <div className='Logo'><img  src={myLogo} alt="" className={HeaderModle.Logotext} /></div>
-     <nav className={HeaderModle.Navigation}>
+    <header className={HeaderModule.Header}>
+      <div className='Logo'><img  src={myLogo} alt="" className={HeaderModule.Logotext} /></div>
+     <nav className={HeaderModule.Navigation}>
        <ul>
           {links.map((link , id)=>{
            return <a key={id} href={`#${link}`}
            onClick={()=>handleLinkClick(link)}
-           className={activeLink === link ? HeaderModle.activeLink : ''}>{link}</a>
+           className={activeLink === link ? HeaderModule.activeLink : ''}>{link}</a>
           })}
        </ul>
-      <div  className={HeaderModle.Bars} onClick={toggleMenu}>
+      <div  className={HeaderModule.Bars} onClick={toggleMenu}>
         <HiMiniBars3BottomRight/>
       </div>
        <Mobilenav showMenu={showMenu} toggleMenu={toggleMenu} onClick={()=>setShowMenu(true)}/>
      </nav>
-     <button className={HeaderModle.CvDowlandbtn} onClick={() => window.open(My_cv,'_blank')}>My Cv Download</button>
+     <button className={HeaderModule.CvDowlandbtn} onClick={() => window.open(My_cv,'_blank')}>My Cv Download</button>
     </header>
   )
 }

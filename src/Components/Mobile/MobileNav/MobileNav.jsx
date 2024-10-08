@@ -25,7 +25,7 @@ function Mobilenav({showMenu,toggleMenu,}) {
                className={activeLink === link ? MobileModle.activeLink : ''}
                >{link}</a>
               })}
-               <button className={HeaderModle.CvDowlandbtn} onClick={() => window.open(My_cv,'_blank')}>My Cv Download</button>             </ul>
+               <button className={MobileModle.CvDowlandbtn} onClick={() => window.open(My_cv,'_blank')}>My Cv Download</button>             </ul>
              <IoCloseSharp className={MobileModle.CloseSharp} onClick={toggleMenu}/>
      
             </div>
