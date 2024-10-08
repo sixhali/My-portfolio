@@ -22,13 +22,6 @@ function Header() {
     setActiveLink(link); 
   };
 
-  function downloadCv(){
-    const link = document.createElement('a')
-    link.href= {My_cv}
-    link.download = 'myCv.pdf'
-    link.click()
-  }
-
   return (
     <header className={HeaderModle.Header}>
       <div className='Logo'><img  src={myLogo} alt="" className={HeaderModle.Logotext} /></div>
@@ -45,8 +38,7 @@ function Header() {
       </div>
        <Mobilenav showMenu={showMenu} toggleMenu={toggleMenu} onClick={()=>setShowMenu(true)}/>
      </nav>
-     <button className={HeaderModle.CvDowlandbtn} onClick={downloadCv}>My Cv Download</button>
-
+     <button className={HeaderModle.CvDowlandbtn} onClick={() => window.open(My_cv,'_blank')}>My Cv Download</button>
     </header>
   )
 }
