@@ -8,13 +8,6 @@ function Mobilenav({showMenu,toggleMenu,}) {
   const links = ['home' , 'about' , 'mytools', 'myproje', 'contact ']
   const [activeLink,setActiveLink] = useState('home')
 
-  function downloadCv(){
-   const link = document.createElement('a')
-   link.href= {My_cv}
-   link.download = 'myCv.pdf'
-   link.click()
-  }
-
   function handleLinkClick(link){
      setActiveLink(link)
   }
@@ -32,8 +25,7 @@ function Mobilenav({showMenu,toggleMenu,}) {
                className={activeLink === link ? MobileModle.activeLink : ''}
                >{link}</a>
               })}
-              <button className={MobileModle.CvMobileDowlandbtn} onClick={downloadCv}>My Cv Download</button>
-             </ul>
+               <button className={HeaderModle.CvDowlandbtn} onClick={() => window.open(My_cv,'_blank')}>My Cv Download</button>             </ul>
              <IoCloseSharp className={MobileModle.CloseSharp} onClick={toggleMenu}/>
      
             </div>
