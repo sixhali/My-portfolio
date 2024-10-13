@@ -17,11 +17,11 @@ function MyProje({isDarkMode}) {
                   <a href="https://susha-logostic-react-js.vercel.app/" target='_blank'><img src={myProje1} width={416}
                    className=' hover:brightness-50'/></a>
                 </div>
-                <a href="https://traveling-blog-website.vercel.app/" target='_blank'><img src={myProje2} width={416}
+                <a href="https://archbaku-figma-proje.vercel.app/" target='_blank'><img src={myProje2} width={416}
                  className=' hover:brightness-50'/></a>
-                <a href="https://baku-devs-figma-proje.vercel.app/" target='_blank'><img src={myProje3} width={416}
+                <a href="https://traveling-blog-website.vercel.app/" target='_blank'><img src={myProje3} width={416}
                  className=' hover:brightness-50'/></a>
-                <a href="https://archbaku-figma-proje.vercel.app/" target='_blank'><img src={myProje4} width={416}
+                <a href="https://baku-devs-figma-proje.vercel.app/" target='_blank'><img src={myProje4} width={416}
                  className=' hover:brightness-50'/></a>
             </div>
 
