@@ -4,7 +4,7 @@ import usePersonalData from '../../Hooks/usePersonalData';
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import myLogo from '../../assets/MyLogoText.png';
 import Mobilenav from '../Mobile/MobileNav/MobileNav';
-import My_cv from '../../assets/MyCv.pdf';
+import My_cv from '../../assets/MyCv_upgrade.pdf';
 
 
 
