@@ -4,7 +4,7 @@ import usePersonalData from '../../Hooks/usePersonalData';
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import myLogo from '../../assets/MyLogoText.png';
 import Mobilenav from '../Mobile/MobileNav/MobileNav';
-import My_cv from '../../assets/MyCv_upgrade.pdf';
+import My_cv_new from '../../assets/MyCv_upgrade.pdf';
 
 
 
@@ -38,7 +38,7 @@ function Header() {
       </div>
        <Mobilenav showMenu={showMenu} toggleMenu={toggleMenu} onClick={()=>setShowMenu(true)}/>
      </nav>
-     <button className={HeaderModule.CvDowlandbtn} onClick={() => window.open(My_cv,'_blank')}>My Cv Download</button>
+     <button className={HeaderModule.CvDowlandbtn} onClick={() => window.open(My_cv_new,'_blank')}>My Cv Download</button>
     </header>
   )
 }
